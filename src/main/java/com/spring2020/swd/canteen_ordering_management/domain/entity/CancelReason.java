@@ -12,15 +12,10 @@ import java.time.LocalDateTime;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CustomerOrder
+public class CancelReason
 {
     private BigInteger id;
-    private String location;
-    private String note;
-    private double totalPrice;
-    private BigInteger staffId;
-    private BigInteger customerId;
-    private int orderStatusId;
-    private LocalDateTime craeteAt;
-    private LocalDateTime updateAt;
+    private BigInteger orderId;
+    private LocalDateTime cancelAt;
+    private String reason;
 }

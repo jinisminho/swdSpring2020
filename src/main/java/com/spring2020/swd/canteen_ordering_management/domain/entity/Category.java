@@ -5,17 +5,12 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.math.BigInteger;
-import java.time.LocalDateTime;
-
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CustomerEntity
+public class Category
 {
-    private BigInteger id;
-    private BigInteger appUserId;
-    private LocalDateTime createAt;
-    private LocalDateTime updateAt;
+    private int id;
+    private String name;
 }

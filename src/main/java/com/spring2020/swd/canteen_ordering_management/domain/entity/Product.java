@@ -12,15 +12,14 @@ import java.time.LocalDateTime;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CustomerOrder
+public class Product
 {
     private BigInteger id;
-    private String location;
-    private String note;
-    private double totalPrice;
-    private BigInteger staffId;
-    private BigInteger customerId;
-    private int orderStatusId;
-    private LocalDateTime craeteAt;
+    private String name;
+    private double price;
+    private String description;
+    private int categoryId;
+    private boolean isAvailable;
+    private LocalDateTime createAt;
     private LocalDateTime updateAt;
 }

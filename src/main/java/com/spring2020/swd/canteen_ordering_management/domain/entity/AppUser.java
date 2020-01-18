@@ -23,7 +23,7 @@ public class AppUser
     private String phone;
     private String email;
     private char gender;
-    private String status;
+    private boolean isActivate;
     private String userType;
     private LocalDate createAt;
     private LocalDate updateAt;

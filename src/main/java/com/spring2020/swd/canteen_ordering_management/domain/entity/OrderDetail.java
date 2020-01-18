@@ -6,16 +6,15 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.math.BigInteger;
-import java.time.LocalDateTime;
 
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CustomerEntity
+public class OrderDetail
 {
     private BigInteger id;
-    private BigInteger appUserId;
-    private LocalDateTime createAt;
-    private LocalDateTime updateAt;
+    private BigInteger orderId;
+    private BigInteger productId;
+    private int quantity;
 }
